@@ -19,7 +19,7 @@ export default (state = filtersReducerDefaultState, action) => {
         ...state,
         sortBy: 'amount'
       };
-    case 'SORT_BY DATE':
+    case 'SORT_BY_DATE':
       return {
         ...state,
         sortBy: 'date'
@@ -37,4 +37,4 @@ export default (state = filtersReducerDefaultState, action) => {
     default:
       return state
   }
-};
+}; 
